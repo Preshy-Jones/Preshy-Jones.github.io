@@ -1,0 +1,67 @@
+body{
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: #FFFDFE;
+    /* background: url(images/bg-pattern-desktop.svg); */
+    /* background: red; */
+}
+
+.logo{
+    
+    
+/*  
+height: 200px;    
+width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+
+button {
+    background-color: #E1A8A6;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: url(images/bg-pattern-desktop.svg) no-repeat center center/cover;
+    padding-left: 8rem;
+
+}
+.subshowcase-1{
+    
+    display: grid;
+    /* background:  no-repeat center center/cover; */
+}
+
+.subshowcase-1 img{
+    align-self: end;
+}
+
+.subshowcase-1 p{
+    color: #C7A0A1;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 385;
+    src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+
+}
+
+.subshowcase-1 h1{
+    color: #C7A0A1;
+    font-size: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 385;
+    src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+      
+}
+
+.subshowcase-2{
+    justify-self: flex-end;
+
+}
